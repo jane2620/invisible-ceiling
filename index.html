@@ -52,7 +52,7 @@
       <div class="col-md-6 text-center" >
         <section class="occupation-form">
           <h3>Select an Occupation</h3>
-          <ul>
+          <ul class="no-decoration">
             <li><a href="barber.html">Barber</a></li>
             <li><a href="cosmetologist.html">Cosmetologist</a></li>
             <li><a href="insurance.html">Insurance</a></li>
@@ -62,27 +62,6 @@
       </div>
       <div class="col-md-3"></div>
     </div> 
-    <!-- <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 text-center" >
-          <section class="occupation-form">
-            <h3>Select an Occupation</h3>
-            <form action="{{ url_for('index') }}" method="POST">
-                <div class="form-group">
-                    <label for="occ_val"></label>
-                    <select class="form-control" id="occ_val" name="occ_val">
-                        <option value="cosmetologist">Cosmetologist</option>
-                        <option value="barber">Barber</option>
-                        <option value="insurance">Insurance Agent</option>
-                    </select>
-                </div>
-                <button class="btn btn-secondary">Submit</button>
-
-            </form>
-          </section>
-        </div>
-        <div class="col-md-3"></div>
-    </div> -->
     <br>
     <div class="row" id="info-content">
         <div class="col-md-12">
@@ -128,19 +107,19 @@
             <div class="col-lg-4 image-row-item">
               <img src="static/bb_large_logo.png" alt="Image 1" width="auto" height="100">
               <h6>
-                Barred Business description
+                <a class="nav-link" href="https://www.barredbusiness.org/">Barred Business</a>
               </h6>
             </div>
             <div class="col-lg-4 image-row-item">
               <img src="static/gjp_logo.jpg" alt="Image 2" width="auto" height="100">
               <h6>
-                GJP description
+                <a class="nav-link" href="https://gjp.org/">Georgia Justice Project</a>
               </h6> 
             </div>             
             <div class="col-lg-4 image-row-item">
               <img src="static/ibw_logo.jpg" alt="Image 3" width="auto" height="100">
               <h6>
-                JDL description
+                <a class="nav-link" href="https://www.thejustdatalab.com/">Ida B. Wells Just Data Lab</a>
               </h6> 
             </div>
           </div>

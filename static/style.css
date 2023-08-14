@@ -107,3 +107,7 @@ h2 {
 .header {
   margin: 0px; /* Override the margin for the header */
 }
+
+.no-decoration {
+  list-style-type: none;
+}
