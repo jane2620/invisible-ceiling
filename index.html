@@ -4,13 +4,37 @@
 <head>
     <link type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="icon" href="/static/jdl_logo.png">
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="icon" href="/static/jdl_logo.png">
     <title>Invisible Ceiling</title>
 </head>
 
-{% include 'header.html' %}
-
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b45231;">
+      <a class="navbar-brand" href="/invisible-ceiling">
+        <img src="static/jdl_logo.png" width="30" height="30" alt="">
+        The Invisible Ceiling
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.thejustdatalab.com/" style="color: #e9e6e1;">
+              <img src="static/ibw_logo.jpg" width="auto" height="40" alt="">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.barredbusiness.org/" style="color: #e9e6e1;">
+              <img src="static/bb_logo.jpg" width="auto" height="40" alt="">
+            </a>        
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
 <br> 
 
 <body style="margin:10px">
