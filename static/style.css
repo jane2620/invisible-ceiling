@@ -113,3 +113,15 @@ h2 {
   padding: none;
   margin: none;
 }
+
+.centered-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center the list items horizontally */
+}
+
+.centered-list li {
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
