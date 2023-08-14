@@ -103,3 +103,7 @@ h2 {
   align-content: center;
   text-align:center;
 }
+
+.header {
+  margin: 0px; /* Override the margin for the header */
+}
