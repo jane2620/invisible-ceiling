@@ -1,0 +1,76 @@
+/* occupation_style.css */
+body {
+  /* background-color: #e9e6e1; */
+  color: #010101;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #b45231;
+}
+
+h3 {
+  color: #010101;
+}
+
+.table {
+  background-color: #efb679;
+  color: #010101;
+}
+
+.table th {
+  background-color: #6e6c2e;
+  color: #e9e6e1;
+  border: 1px solid #6e6c2e;
+
+}
+
+.table td {
+  background-color: #e9e6e1;
+  border: 1px solid #6e6c2e;
+}
+
+.description {
+  color: #010101;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #010101;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #010101;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #010101; /* Change to your desired color */
+}
+
+.resource-links a {
+  color: #010101; /* Change to your desired link color */
+  text-decoration: underline;
+}
+
+.resource-links a:hover {
+  color: #010101; /* Change to your desired link hover color */
+  text-decoration: none;
+}
+
+.header {
+  margin: 0px; /* Override the margin for the header */
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="/static/jdl_logo.png">
+    <title>Invisible Ceiling</title>
+</head>
+
+{% include 'header.html' %}
+
+<br> 
+
+<body style="margin:10px">
+    <div class="row">
+        <div class="col-md-12">
+          <header>
+            <img src="static/jdl_logo.png" width="100" height="100" alt="Your Logo">
+            <h1>The Invisible Ceiling</h1>
+            <p>Revealing hidden barriers to receiving occupational licenses for justice-impacted folks in Georgia.</p>
+          </header>
+        </div>
+    </div>
+    <div class="row">
+
+      <div class="col-md-3"></div>
+      <div class="col-md-6 text-center" >
+        <section class="occupation-form">
+          <h3>Select an Occupation</h3>
+          <ul>
+            <li><a href="barber.html">Barber</a></li>
+            <li><a href="cosmetologist.html">Cosmetologist</a></li>
+            <li><a href="insurance.html">Insurance</a></li>
+            <!-- Add more list items as needed -->
+        </ul>
+        </section>
+      </div>
+      <div class="col-md-3"></div>
+    </div> 
+    <!-- <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center" >
+          <section class="occupation-form">
+            <h3>Select an Occupation</h3>
+            <form action="{{ url_for('index') }}" method="POST">
+                <div class="form-group">
+                    <label for="occ_val"></label>
+                    <select class="form-control" id="occ_val" name="occ_val">
+                        <option value="cosmetologist">Cosmetologist</option>
+                        <option value="barber">Barber</option>
+                        <option value="insurance">Insurance Agent</option>
+                    </select>
+                </div>
+                <button class="btn btn-secondary">Submit</button>
+
+            </form>
+          </section>
+        </div>
+        <div class="col-md-3"></div>
+    </div> -->
+    <br>
+    <div class="row" id="info-content">
+        <div class="col-md-12">
+          <section class="introduction">
+            <h3>The Importance of Occupational Licensing Access: </h3>
+            <div class="image-row">
+              <div class="col-lg-4">
+                <img src="static/Frame 3.png" alt="Image 1">
+                <!-- <h6 style="text-align: left; margin-left: 10px">Existing barriers make occupational licensing inaccessible
+                  for justice-impacted people, robbing them of high-quality 
+                  employment opportunities.
+                </h6> -->
+              </div>
+              <div class="col-lg-4">
+                <img src="static/Frame 4.png" alt="Image 2">
+                <!-- <h6 style="text-align: left; margin-left: 10px">
+                  Growing salaries for jobs requiring occupational licenses 
+                  reflect their growing demand and utility, and the 
+                  financial stability they can offer employees. 
+                </h6>  -->
+              </div>             
+              <div class="col-lg-4">
+                <img src="static/Frame 5.png" alt="Image 3">
+                <!-- <h6 style="text-align: left; margin-left: 10px">
+                  New jobs across sectors highlight how more employees with
+                  licenses are needed in the workforce, emphasizing why
+                  barriers must be removed. 
+                </h6>  -->
+              </div>
+            </div>
+            <br>
+          </section>
+        </div>
+    </div>
+
+
+    <div class="row" id="supporters">
+      <div class="col-md-12">
+        <section class="">
+          <br>
+          <h3>Key Supporters of this work: </h3>
+          <div class="image-row-small">
+            <div class="col-lg-4 image-row-item">
+              <img src="static/bb_large_logo.png" alt="Image 1" width="auto" height="100">
+              <h6>
+                Barred Business description
+              </h6>
+            </div>
+            <div class="col-lg-4 image-row-item">
+              <img src="static/gjp_logo.jpg" alt="Image 2" width="auto" height="100">
+              <h6>
+                GJP description
+              </h6> 
+            </div>             
+            <div class="col-lg-4 image-row-item">
+              <img src="static/ibw_logo.jpg" alt="Image 3" width="auto" height="100">
+              <h6>
+                JDL description
+              </h6> 
+            </div>
+          </div>
+        </section>
+      </div>
+  </div>
+    
+    <br>
+    <br>
+    
+    <div class="row">
+        <div class="col-md-4">
+          <section class="additional-info">
+            <h3>Credit & Acknowledgements</h3>
+            <p class="credit-acknowledgements">Site design by Jane Castleman.
+              Thank you to the Ida B. Wells Just Data Lab, Barred Business, 
+              and The Georgia Justice Project for supporting this project.
+            </p>
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="additional-info">
+            <!-- <h3>Contact Us</h3>
+            <p class="contact-info">Email: contact@example.com</p> -->
+          </section>
+        </div>
+        <div class="col-md-4">
+          <section class="additional-info">
+            <!-- <h3>Credit & Acknowledgements</h3>
+            <p class="credit-acknowledgements">Site design by Jane Castleman.
+              Thank you to the Ida B. Wells Just Data Lab, Barred Business, 
+              and The Georgia Justice Project for supporting this project.
+            </p> -->
+          </section>
+        </div>
+    </div>
+    
+</body>
+
+<html>
