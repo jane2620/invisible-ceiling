@@ -110,4 +110,6 @@ h2 {
 
 .no-decoration li {
   list-style: none;
+  padding: none;
+  margin: none;
 }
